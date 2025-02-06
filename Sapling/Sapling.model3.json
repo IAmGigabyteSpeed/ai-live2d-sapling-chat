@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Sapling.moc3",
+		"Textures": [
+			"Sapling.2048/texture_00.png"
+		],
+		"Physics": "Sapling.physics3.json",
+		"DisplayInfo": "Sapling.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
