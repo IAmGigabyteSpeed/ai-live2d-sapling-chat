@@ -1,0 +1,14 @@
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px); /* Starts a bit above */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Ends in the normal position */
+    }
+  }
+  
+  .message-container {
+    animation: slideIn 1s ease-in-out;
+  }
